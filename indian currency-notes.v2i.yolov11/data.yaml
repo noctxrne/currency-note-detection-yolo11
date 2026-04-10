@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['10', '100', '20', '200', '2000', '5', '50', '500', 'None']
+
+roboflow:
+  workspace: saketh-s
+  project: indian-currency-notes-om7ac
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/saketh-s/indian-currency-notes-om7ac/dataset/2
